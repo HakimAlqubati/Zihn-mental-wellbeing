@@ -1,0 +1,139 @@
+{
+    "dir": "ltr",
+    "brand": "Zihn",
+    "subtitle": "Certified Social Specialist",
+    "bookNow": "Book Your Consultation",
+    "nav": {
+        "main": "Home",
+        "support": "Psychological Support",
+        "blog": "Blog",
+        "contact": "Contact",
+        "bookNow": "Book Your Consultation"
+    },
+    "supportMenu": {
+        "anxiety": "Anxiety & Stress",
+        "depression": "Depression",
+        "ocd": "OCD"
+    },
+    "heroSwiper": {
+        "importance1": {
+            "title": "The Importance of Women's Psychological Support",
+            "desc": "Our specialized psychological support helps empower women and overcome pressures and challenges at every stage of life."
+        },
+        "importance2": {
+            "title": "Motherhood is a Journey Worth Supporting",
+            "desc": "Consulting with a women's specialist helps you navigate pregnancy, childbirth, and parenting with better mental health."
+        },
+        "importance3": {
+            "title": "Women's Mental Health is the Family Foundation",
+            "desc": "A woman's psychological well-being positively impacts family stability and children's growth. We offer you guidance and support in all circumstances."
+        }
+    },
+    "sliderContent": [
+        {
+            "title": "Pregnancy & Postpartum Support",
+            "desc": "Feeling stressed or anxious during or after pregnancy? Get professional guidance to manage emotional changes and maintain your mental health."
+        },
+        {
+            "title": "Healthy Marital Relationship",
+            "desc": "Facing communication challenges with your husband or struggling with role balance? We help you build a healthy marital relationship based on respect and understanding."
+        },
+        {
+            "title": "Boosting Women's Self-Confidence",
+            "desc": "Do you experience low self-esteem or hesitate to make your own decisions? Learn how to build confidence and embrace your strengths."
+        },
+        {
+            "title": "Parenting & Coping with Stress",
+            "desc": "Parenting difficulties, teenage challenges, or role confusion... Our counseling supports you in raising your children while maintaining your own emotional balance."
+        }
+    ],
+    "cardsData": [
+        {
+            "title": "Women's Psychological Support Sessions",
+            "text": "Confidential sessions with a female specialist to discuss your personal and psychological issues in a safe, supportive space.",
+            "btn": "Book Now"
+        },
+        {
+            "title": "Motherhood & Pregnancy Counseling",
+            "text": "Emotional support during pregnancy, childbirth, and postpartum to help you manage changes and stress calmly.",
+            "btn": "Book Consultation"
+        },
+        {
+            "title": "Marital & Family Relationships",
+            "text": "Effective solutions for communication issues, conflict management, and building a loving, balanced marriage.",
+            "btn": "Start Now"
+        },
+        {
+            "title": "Empowerment & Self-Confidence",
+            "text": "Development plans to enhance self-esteem, learn coping skills, and achieve work-life balance.",
+            "btn": "Learn More"
+        },
+        {
+            "title": "Parenting & Mothers’ Support",
+            "text": "Counseling for parenting challenges, psychological support for new mothers, and tips for a healthy family life.",
+            "btn": "Get Support"
+        },
+        {
+            "title": "Girls & Teen Support",
+            "text": "Special guidance for girls and teenagers to overcome stress, bullying, and build a strong personality.",
+            "btn": "Book an Appointment"
+        }
+    ],
+    "footer": {
+        "brand": "Zihn Consulting",
+        "about": "We believe that mental well-being starts with a step. With Zihn, every consultation is a new beginning for a better, more balanced life.",
+        "contactTitle": "Contact Us",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "newsletterTitle": "Newsletter",
+        "emailPlaceholder": "Your email...",
+        "subscribe": "Subscribe",
+        "noSpam": "We won't send you any spam.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Conditions",
+        "copyright": "All rights reserved © {{year}} Zihn Consulting. Made with love ❤️"
+    },
+    "specialistScheduleTitle": "Specialist's Schedule",
+    "specialistSchedule": [
+        {
+            "day": "saturday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        },
+        {
+            "day": "sunday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        },
+        {
+            "day": "monday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        },
+        {
+            "day": "tuesday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        },
+        {
+            "day": "wednesday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        },
+        {
+            "day": "thursday",
+            "from": "10:00 AM",
+            "to": "2:00 PM"
+        }
+    ],
+    "from": "From",
+    "to": "To",
+    "days": {
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday"
+    }
+}

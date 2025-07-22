@@ -1,0 +1,16 @@
+{
+  "heroSwiper": {
+    "importance1": {
+      "title": "The Importance of Psychological Support",
+      "desc": "Psychological support helps improve quality of life and strengthens the ability to face daily pressures and various challenges."
+    },
+    "importance2": {
+      "title": "Mental Health is the Foundation of Success",
+      "desc": "Balanced mental health gives people stability and helps them build healthy relationships and achieve their goals."
+    },
+    "importance3": {
+      "title": "Talking to Professionals",
+      "desc": "Consulting with a social or psychological specialist provides you with understanding and safety and helps you overcome crises in a scientific and effective way."
+    }
+  }
+}
