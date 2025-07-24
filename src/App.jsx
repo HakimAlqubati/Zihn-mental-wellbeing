@@ -12,6 +12,9 @@ import img4 from "./assets/img4.jpg";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import SpecialistSchedule from "./components/SpecialistSchedule";
+import WhatsAppButton from "./components/WhatsAppButton";
+import BlogSection from "./components/BlogSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 const sliderImages = [img1, img2, img3, img4];
 
@@ -100,7 +103,7 @@ export default function App() {
           <div className="text-base md:text-lg font-medium min-h-[70px] text-purple-800 transition-all duration-300">
             {card.text}
           </div>
-          <button className={`
+          {/* <button className={`
             px-5 py-1.5 rounded-xl self-end font-bold shadow-sm
             bg-purple-100 text-purple-700
             hover:bg-gradient-to-r hover:from-pink-400 hover:to-purple-400 hover:text-white
@@ -108,12 +111,17 @@ export default function App() {
             group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:text-white
           `}>
             {card.btn}
-          </button>
+          </button> */}
         </div>
 
         ))}
       </section>
+      <TestimonialsSection />
+      <BlogSection />
       <SpecialistSchedule />
+      <WhatsAppButton phone="00967773030069" />
+
+
       {/* Footer */}
       <Footer />
     </div>

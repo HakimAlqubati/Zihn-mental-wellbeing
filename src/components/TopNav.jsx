@@ -36,17 +36,22 @@ export default function TopNav() {
         ${scrolled ? "py-2" : "py-4"}
       `}>
         {/* Logo + Brand */}
-        <div className="flex items-center gap-3 transition-all duration-500">
-          <img
-            src={logo}
-            alt="logo"
-            className={`
-              transition-all duration-500 rounded-xl shadow border border-purple-100
-              ${scrolled ? "h-8 w-8" : "h-12 w-12"}
-            `}
-          />
+        <div className="relative flex items-center gap-3 transition-all duration-500">
+           
+        <img
+        src={logo}
+        alt="logo"
+        className={`
+          transition-all duration-500 rounded-xl border border-purple-100
+          ${scrolled ? "h-12 w-12" : "h-12 w-12"}
+          logo-glow
+        `}
+        style={{
+          boxShadow: "0 0 20px 6px #c084fc55, 0 0 64px 14px #f472b622"
+        }}
+      />
           <div>
-            <h1 className={`
+            {/* <h1 className={`
               font-extrabold text-purple-800 transition-all duration-500
               ${scrolled ? "text-base md:text-lg" : "text-xl md:text-2xl"}
             `}>
@@ -57,7 +62,7 @@ export default function TopNav() {
               ${scrolled ? "text-xs" : "text-sm md:text-base"}
             `}>
               {t("subtitle")}
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -75,7 +80,7 @@ export default function TopNav() {
         {/* ====== الروابط في الديسكتوب ====== */}
         <nav className="hidden md:flex flex-wrap gap-2 md:gap-4 items-center transition-all duration-500">
           <NavButton>{t("nav.main")}</NavButton>
-          <div
+          {/* <div
             className="relative"
             onMouseEnter={() => setSupportOpen(true)}
             onMouseLeave={() => setSupportOpen(false)}
@@ -91,16 +96,11 @@ export default function TopNav() {
               <DropdownItem>{t("supportMenu.depression")}</DropdownItem>
               <DropdownItem>{t("supportMenu.ocd")}</DropdownItem>
             </div>
-          </div>
+          </div> */}
           <NavButton>{t("nav.blog")}</NavButton>
           <NavButton>{t("nav.contact")}</NavButton>
           {/* Call to action */}
-          <a
-            href="/booking"
-            className="ml-3 px-6 py-2 rounded-2xl font-bold bg-gradient-to-l from-pink-500 to-purple-400 text-white shadow-md hover:scale-105 hover:bg-pink-600 transition-all duration-300 text-base"
-          >
-            {t("nav.bookNow")}
-          </a>
+         
         </nav>
         {/* زر اللغة */}
         <button
@@ -145,12 +145,7 @@ export default function TopNav() {
             <DropdownItem>{t("supportMenu.depression")}</DropdownItem>
             <DropdownItem>{t("supportMenu.ocd")}</DropdownItem>
           </div>
-          <a
-            href="/booking"
-            className="w-full mt-2 px-6 py-2 rounded-2xl font-bold bg-gradient-to-l from-pink-500 to-purple-400 text-white shadow-md text-center"
-          >
-            {t("nav.bookNow")}
-          </a>
+         
           {/* زر اللغة في الجوال */}
           <button
             onClick={() => {

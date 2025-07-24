@@ -5,7 +5,6 @@
     "bookNow": "Book Your Consultation",
     "nav": {
         "main": "Home",
-        "support": "Psychological Support",
         "blog": "Blog",
         "contact": "Contact",
         "bookNow": "Book Your Consultation"
@@ -135,5 +134,95 @@
         "tuesday": "Tuesday",
         "wednesday": "Wednesday",
         "thursday": "Thursday"
-    }
+    },
+    "whatsappBtn": "Contact via WhatsApp",
+    "whatsappTooltip": "Chat with us directly on WhatsApp",
+    "whatsappMessage": "Hello, I need a consultation from Zihn website",
+    "blogTitle": "Zihn Consultancy Blog",
+    "readMore": "Read more",
+    "blogs": [
+        {
+            "title": "Why Consulting is Crucial for Startups",
+            "text": "Startups face a lot of uncertainty and competition. Consulting helps founders get expert advice, avoid costly mistakes, and grow faster.",
+            "img": "/assets/blog2.jpg",
+            "date": "2024-07-01"
+        },
+        {
+            "title": "5 Steps to Build Your Business Strategy",
+            "text": "A solid business strategy is the backbone of any successful company. Here are five essential steps to create a winning strategy.",
+            "img": "/assets/blog2.jpg",
+            "date": "2024-07-10"
+        },
+        {
+            "title": "Digital Transformation in the Middle East",
+            "text": "Digital transformation is reshaping industries across the Middle East, offering new opportunities for businesses of all sizes.",
+            "img": "/assets/blog2.jpg",
+            "date": "2024-07-15"
+        },
+        {
+            "title": "How to Manage Your Team Remotely",
+            "text": "Remote work is here to stay. Learn practical tips for managing distributed teams and boosting productivity.",
+            "img": "/assets/blog2.jpg",
+            "date": "2024-07-19"
+        },
+        {
+            "title": "Financial Planning for SMEs: Best Practices",
+            "text": "Good financial planning helps small businesses survive and thrive. Discover key practices every SME should adopt.",
+            "img": "/assets/blog2.jpg",
+            "date": "2024-07-22"
+        }
+    ],
+    "testimonialsTitle": "What Our Clients Say",
+    "testimonials": [
+        {
+            "name": "Arwa Mohammed",
+            "text": "Honestly, my experience with you was amazing. You helped me change a lot in my life. I felt comfortable with you from the first session.",
+            "img": "client1.png"
+        },
+        {
+            "name": "Client",
+            "text": "I don't like to mention my name, but I want to thank you from my heart. Your advice made it easier for me to solve my family issues.",
+            "img": "client2.png"
+        },
+        {
+            "name": "Sara Hussein",
+            "text": "Your approach is kind and your words are wise. I felt confident after your sessions.",
+            "img": "client3.png"
+        },
+        {
+            "name": "Client",
+            "text": "I benefited a lot from your counseling sessions, and I feel my life is much better now.",
+            "img": "client4.png"
+        },
+        {
+            "name": "Lamia",
+            "text": "Every time I talk to you, I feel like you are a sister to me. Thank you for your time and effort.",
+            "img": "client5.png"
+        },
+        {
+            "name": "Client",
+            "text": "I was hesitant to seek counseling, but honestly, I felt much more at ease and understood myself better.",
+            "img": "client6.png"
+        },
+        {
+            "name": "Um Raid",
+            "text": "You changed the way I deal with my children, really thank you from my heart.",
+            "img": "client7.png"
+        },
+        {
+            "name": "Client",
+            "text": "I didn't expect this much change from just one session. Thank you so much.",
+            "img": "client8.png"
+        },
+        {
+            "name": "Maryam",
+            "text": "The best thing is that you listen and understand, and your advice is simple and easy to apply.",
+            "img": "client9.png"
+        },
+        {
+            "name": "Client",
+            "text": "God bless you, you really helped me a lot.",
+            "img": "client10.png"
+        }
+    ]
 }

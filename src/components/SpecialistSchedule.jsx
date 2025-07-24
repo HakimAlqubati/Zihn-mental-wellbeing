@@ -8,7 +8,8 @@ export default function SpecialistSchedule() {
   const schedule = t("specialistSchedule", { returnObjects: true });
 
   return (
-    <section className="max-w-2x2 mx-auto my-12 px-80 py-8 bg-white rounded-3xl shadow-lg border border-pink-100">
+    <section className="max-w-2xl mx-auto my-12 px-4 md:px-10 lg:px-24 py-8 bg-white rounded-3xl shadow-lg border border-pink-100">
+
       <h2 className="text-2xl font-extrabold text-purple-800 mb-6 text-center">
         {t("specialistScheduleTitle")}
       </h2>

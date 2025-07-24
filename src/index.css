@@ -9,3 +9,21 @@
 .animate-floatY {
   animation: floatY 6s ease-in-out infinite;
 }
+
+@keyframes logo-glow {
+  0%, 100% {
+    box-shadow: 0 0 7px 1.5px #a21caf33;
+    filter: brightness(1.04);
+  }
+  50% {
+    box-shadow: 0 0 15px 3px #f472b644;
+    filter: brightness(1.09);
+  }
+}
+.logo-glow {
+  animation: logo-glow 8s ease-in-out infinite;
+}
+
+.shadow-lg {
+  box-shadow: 0 6px 36px 0 rgba(185, 60, 180, 0.11);
+}
